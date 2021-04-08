@@ -80,6 +80,16 @@ hr {
     }
 }
 
+@media screen and (min-width: 768px) and (max-width:991px) {
+
+    .container {
+        margin-top: 0;
+    }
+
+    .blu-img {
+        height: 200px;
+    }
+}
 
 
 
