@@ -34,12 +34,52 @@ img {
     height: 250px;
 }
 
-.paragraph {
+p {
     padding-bottom: 10px;
 }
 
 hr {
    border: 1px solid black;
 }
+
+/* media */
+
+@media screen and (max-width: 767px) {
+    .container {
+        margin-top: 0;
+        padding: 5px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+    
+    h3 {
+        font-size: 19px;
+    }
+
+    .bg-yellow {
+        background-color: #F2F2CD;
+    }
+
+    img {
+        width: 150px;
+        height: auto;
+    }
+
+    .blu-img {
+        height: 150px;
+    }
+
+    .wannabe-section {
+        margin-bottom: 0;
+    }
+
+    p {
+        padding-bottom: 5px;
+    }
+}
+
+
 
 
